@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+}
+
+.icons{
+    width: 180px;
+    font-size: 20px;
+    border: 2px solid rgb(134, 88, 2);
+    background: rgba(255, 225, 0, 0.384);
+}
+
+.ic{
+    width: 150px;
+    margin-left: 7%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(134, 88, 2, 0.205);
+}
+
+input[type = "radio"]{
+    width: 64px;
+    height: 64px;
+    appearance: none;
+    margin-top: 10%;
+}
+
+input[id = "venda"]{
+    background: url(../IMG/carrinho-de-compras.png);
+    background-repeat: no-repeat;
+
+}
+
+label[for = "venda"]{
+    margin-left: 5%;
+}
+
+input[id = "orça"]{
+    background: url(../IMG/orcamentacao.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "cliente"]{
+    background: url(../IMG/avaliacao-do-cliente.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "produto"]{
+    background: url(../IMG/caixa.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "cat"]{
+    background: url(../IMG/conta-bancaria.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "conta"]{
+    background: url(../IMG/renda.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "caixa"]{
+    background: url(../IMG/caixa-eletronico.png);
+    background-repeat: no-repeat;
+}
+
+input[id = "user"]{
+    background: url(../IMG/perfil.png);
+    background-repeat: no-repeat;
+}
