@@ -1,47 +1,46 @@
-body
-{
+body{
     margin: 0%;
     background-image: url(../IMG/Background\ 2.png);
 }
-.Login
-{
-display: flex;
-justify-content: center;
+
+.Login{
+    display: flex;
+    justify-content: center;
 }
-.logo
-{
-margin-top: 2%;
-margin-left: 20%;
-border: 2px rgb(174, 31, 17);
-border-style: solid;
-border-radius: 250px;
-width: 300px;
-height: 199px;
-display: flex;
-align-items: center;
-padding-bottom: 2%;
-margin-bottom: 15%;
-box-shadow: 0px 4px 8px 1px rgb(134, 88, 2);
-background-color: rgb(245, 219, 27);
+
+.logo{
+    margin-top: 2%;
+    margin-left: 20%;
+    border: 2px rgb(174, 31, 17);
+    border-style: solid;
+    border-radius: 250px;
+    width: 300px;
+    height: 199px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2%;
+    margin-bottom: 15%;
+    box-shadow: 0px 4px 8px 1px rgb(134, 88, 2);
+    background-color: rgb(245, 219, 27);
 }
+
 .img2{
-    
     margin-top: 5%;
     border-radius: 250px;
 }
-label
-{
+
+label{
     color: rgb(174, 31, 17);
     text-shadow: 1px 1px 1px rgb(245, 219, 27), -1px 1px 1px rgb(255, 166, 0), -1px -1px 1px rgb(231, 64, 46);
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.p2
-{
+
+.p2{
     margin-left: 26%;
 }
-button
-{
+
+button{
     width: 100px;
     margin-top: 3%;
     box-shadow: 0px 4px 8px 1px rgb(134, 88, 2);
@@ -49,24 +48,26 @@ button
     border-radius: 8px;
     transition: 0.4s;
 }
+
 button:hover{
     border-color: rgb(185, 183, 183);
 }
-form
-{
-background-image: linear-gradient(72deg,rgb(255, 166, 0), rgb(245, 219, 27), rgb(255, 166, 0));    
-border: 2px solid rgb(134, 88, 2) ;
-padding: 5px;
-width: 500px;
-height: 630px;
+
+form{
+    background-image: linear-gradient(72deg,rgb(255, 166, 0), rgb(245, 219, 27), rgb(255, 166, 0));    
+    border: 2px solid rgb(134, 88, 2) ;
+    padding: 5px;
+    width: 500px;
+    height: 630px;
 }
+
 .box{
     position: relative;
     width: 350px;
     margin-bottom: 2%;
 }
-.box .imputbox
-{
+
+.box .imputbox{
     position: relative;
     width: 100%;
     background: #fff;
@@ -74,6 +75,7 @@ height: 630px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px 1px rgb(134, 88, 2);
 }
+
 input{
     position: relative;
     width: 97%;
@@ -83,7 +85,8 @@ input{
     padding: 1px 1px;
     border-radius: 2px;    
 }
-#message {
+
+#message{
     display: none;
     background: rgb(248, 169, 22);
     color: rgb(174, 31, 17);
@@ -94,26 +97,31 @@ input{
     border-radius: 10%;
     box-shadow: 0px 4px 8px 1px rgb(134, 88, 2);
 }
+
 h3{
     text-shadow: 1px 1px 1px rgb(245, 219, 27), -1px 1px 1px rgb(255, 166, 0), -1px -1px 1px rgb(231, 64, 46);
 }
-#message p {
+
+#message p{
     padding: 10px 35px;
     font-size: 15px;
 }
-.valid {
+
+.valid{
     color: green;
 }
-.valid:before {
+
+.valid:before{
     position: relative;
     left: -35px;
     content: url(../IMG/verifica.png);
 }
-.invalid {
+
+.invalid{
     color: red;
 }
   
-.invalid:before {
+.invalid:before{
     position: relative;
     left: -35px;
     content: url(../IMG/marca-x.png);
