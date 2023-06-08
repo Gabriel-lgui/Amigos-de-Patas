@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Login.css">
+    <title>Login</title>
+    <script>
+        function mascara_cpf() {
+            var cpf = document.getElementById("cpf")
+            if (cpf.value.length == 3 || cpf.value.length == 7) {
+                cpf.value += "."
+            } else if (cpf.value.length == 11) {
+                cpf.value += "-"
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="Login">
+    <form action="Página Inicial.html" name="form1" method="post">
+        <div class="cor1">
+            <div class="logo">
+                <a href="Login.html"> <img src="IMG/Logo.jpeg" alt="" width="300px" height="210px" class="img2"></a>
+            </div>
+            <table>
+                <tr>
+                    
+                    <label for="email">E-mail</label>
+                    <br>
+                    <div class="box">
+                        <div class="imputbox">
+                            <input type="email" name="email" id="email" autocomplete="email" pattern="^[a-zA-Z]{4,}[@][a-zA-Z]{5,}[.][a-zA-Z]{3,}$" required>
+                        </div>
+                    </div>
+                </tr>
+                <tr>
+                    <label for="Senha">Senha</label>
+                    <br>
+                    <div class="box">
+                        <div class="imputbox">
+                            <input type="password" name="Senha" class="imp2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                        </div>
+                    </div>
+                    <a href="Recuperar.html">Esqueceu a senha?</a> <!--^$-->
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <p class="p2">Não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>  
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>
+</body>
+</html>
